@@ -39,15 +39,14 @@ module.exports = function(opts) {
 
     var contents = file.contents.toString();
 
-    var result = contents.substring(1, contents.length - 1);
     if (quote === 'single' || quote !== 'double') {
-      result = result.replace(/"/g, '\'');
+      contents = contents.replace(/"/g, '\'');
     }
     if (quote === 'double') {
-      result = result.replace(/'/g, '\"');
+      contents = contents.replace(/'/g, '\"');
     }
 
-    file.contents = new Buffer(result);
+    file.contents = new Buffer(contents);
 
     this.push(file);
     cb();
