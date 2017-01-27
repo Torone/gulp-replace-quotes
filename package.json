@@ -1,0 +1,31 @@
+{
+  "name": "gulp-replace-quotes",
+  "version": "1.0.0",
+  "description": "A Gulp plugin to replace quotes, from double to single and vice versa",
+  "license": "MIT",
+  "repository": "https://github.com/Torone/gulp-replace-quotes",
+  "author": {
+    "name": "Andrea Turri",
+    "email": "andrea.turri@gmail.com",
+    "url": "http://andrea-turri.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulp",
+    "plugin",
+    "gulp plugin",
+    "quotes",
+    "replace quotes",
+    "single quotes to double quotes",
+    "double quotes to single quotes"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
