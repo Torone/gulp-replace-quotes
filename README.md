@@ -28,4 +28,5 @@ The only available option is : `'quote'` and it accept a `String` that could be:
 
 ## Release History
 
+ * 27-01-2017   v1.0.1   Fixed a small bug when replacing a single character.
  * 27-01-2017   v1.0.0   Initial version.
