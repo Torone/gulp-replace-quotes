@@ -16,7 +16,7 @@ var replaceQuotes = require('gulp-replace-quotes');
 
 gulp.task('default', function () {
   gulp.src('src/index.js')
-    .pipe(replace({
+    .pipe(replaceQuotes({
       quote: 'single'
     }))
     .pipe(gulp.dest('build'));
