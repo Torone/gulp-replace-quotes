@@ -1,6 +1,6 @@
 {
   "name": "gulp-replace-quotes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Gulp plugin to replace quotes, from double to single and vice versa",
   "license": "MIT",
   "repository": "https://github.com/Torone/gulp-replace-quotes",
