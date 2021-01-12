@@ -28,6 +28,6 @@ The only available option is : `'quote'` and it accept a `String` that could be:
 
 ## Release History
 
- * 06-02-2018   v1.0.2   Merged a PR to fix a typo in README file.
+ * 06-02-2018   v1.0.2   Fixed a typo in the README file.
  * 27-01-2017   v1.0.1   Fixed a small bug when replacing a single character.
  * 27-01-2017   v1.0.0   Initial version.
